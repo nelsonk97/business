@@ -40,10 +40,10 @@ h1 {
   height: 50px;
   display: block;
   width: 100%;
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0, 0.5);
   z-index: 9;
   text-align: center;
-  color: rgb(0, 140, 255);
+  color: white;
   padding: 20px 0 0 0;
 }
 
@@ -80,4 +80,19 @@ h1 {
 
 #section-4 {
   background-color: black;
+}
+
+button {
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid rgb(27, 125, 206);
+  color: white;
+  background-color: transparent;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+  transition: 0.2s ease-in;
 }

@@ -7,7 +7,7 @@ function Fullpage() {
     <ReactFullpage
       //fullpage options
       licenseKey={"96BA3DF5-5B084EFD-9DCB632E-D35399B1"}
-      scrollingSpeed={1000} /* Options here */
+      scrollingSpeed={750} /* Options here */
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>

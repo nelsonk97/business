@@ -67,11 +67,11 @@ h1 {
 /* Sections
 	* --------------------------------------- */
 #section-1 {
-  background-color: rgb(255, 87, 51);
+  background-color: rgb(102, 0, 0);
 }
 
 #section-2 {
-  background-image: linear-gradient(to bottom, rgb(255, 87, 51), black);
+  background-image: linear-gradient(to bottom, rgb(102, 0, 0), black);
 }
 
 #section-3 {
@@ -85,7 +85,7 @@ h1 {
 button {
   border-radius: 20px;
   padding: 10px;
-  border: 3px solid rgb(192, 35, 0);
+  border: 3px solid rgb(255, 0, 0);
   color: white;
   background-color: transparent;
 }
@@ -98,5 +98,5 @@ button:hover {
 }
 
 a {
-  color: rgb(192, 35, 0);
+  color: rgb(255, 0, 0);
 }

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 code {
@@ -39,10 +40,10 @@ h1 {
   height: 50px;
   display: block;
   width: 100%;
-  background: #333;
+  background: rgb(255, 255, 255);
   z-index: 9;
   text-align: center;
-  color: #f2f2f2;
+  color: rgb(0, 140, 255);
   padding: 20px 0 0 0;
 }
 
@@ -61,4 +62,22 @@ h1 {
 #infoMenu li a {
   color: #fff;
   z-index: 999;
+}
+
+/* Sections
+	* --------------------------------------- */
+#section-1 {
+  background-color: rgb(0, 30, 58);
+}
+
+#section-2 {
+  background-image: linear-gradient(to bottom, rgb(0, 30, 58), black);
+}
+
+#section-3 {
+  background-image: linear-gradient(to bottom, black, black);
+}
+
+#section-4 {
+  background-color: black;
 }

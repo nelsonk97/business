@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
+  color: black;
 }
 
 code {
@@ -49,9 +49,13 @@ h1 {
 
 #header {
   top: 0px;
+  background-color: white;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.6);
 }
 #footer {
   bottom: 0px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 /* Bottom menu
@@ -66,27 +70,12 @@ h1 {
 
 /* Sections
 	* --------------------------------------- */
-#section-1 {
-  background-color: rgb(102, 0, 0);
-}
-
-#section-2 {
-  background-image: linear-gradient(to bottom, rgb(102, 0, 0), black);
-}
-
-#section-3 {
-  background-image: linear-gradient(to bottom, black, black);
-}
-
-#section-4 {
-  background-color: black;
-}
 
 button {
   border-radius: 20px;
   padding: 10px;
-  border: 3px solid rgb(255, 0, 0);
-  color: white;
+  color: rgb(0, 119, 255);
+  border: 3px solid rgb(0, 119, 255);
   background-color: transparent;
 }
 
@@ -98,5 +87,14 @@ button:hover {
 }
 
 a {
-  color: rgb(255, 0, 0);
+  color: rgb(0, 119, 255);
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+}
+
+#logo-container {
+  margin-top: -15px;
 }

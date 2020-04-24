@@ -8,15 +8,15 @@ function Fullpage() {
     <ReactFullpage
       //fullpage options
       licenseKey={"96BA3DF5-5B084EFD-9DCB632E-D35399B1"}
-      scrollingSpeed={725} /* Options here */
+      scrollingSpeed={650} /* Options here */
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
             <div id="fullpage">
               <div className="section" id="section-1">
                 <div className="hero">
-                  {/* <img src={hero} alt="hero-img" id="hero-img"></img> */}
-                  <p id="hero-txt">Elevate Your Online Presence.</p>
+                  <p id="hero-txt">7ven digital media</p>
+                  <p id="hero-subtxt">Elevate your online presence</p>
                 </div>
               </div>
               <div className="section" id="section-2"></div>

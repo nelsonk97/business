@@ -82,7 +82,6 @@ h1 {
 #section-1:after {
   background-image: url("./assets/hero.png");
   content: "";
-  opacity: 0.9;
   top: 0;
   left: 0;
   bottom: 0;

@@ -115,7 +115,6 @@ button:hover {
 }
 
 #hero-img {
-  width: 90%;
   height: 50%;
 }
 
@@ -124,4 +123,11 @@ button:hover {
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
   font-weight: 300;
+  color: black;
+  padding: 25px;
+}
+
+#hero-txt:hover {
+  background-color: black;
+  color: white;
 }

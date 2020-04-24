@@ -15,7 +15,7 @@ function Fullpage() {
             <div id="fullpage">
               <div className="section" id="section-1">
                 <div className="hero">
-                  <img src={hero} alt="hero-img" id="hero-img"></img>
+                  {/* <img src={hero} alt="hero-img" id="hero-img"></img> */}
                   <p id="hero-txt">Elevate Your Online Presence.</p>
                 </div>
               </div>

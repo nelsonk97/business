@@ -49,6 +49,7 @@ h1 {
 
 #header {
   top: 0px;
+  opacity: 0.9;
   background-color: white;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.6);
 }
@@ -80,7 +81,7 @@ h1 {
 /* Sections
   * --------------------------------------- */
 #section-1:after {
-  background-image: url("./assets/hero.png");
+  background-image: url("./assets/background-6.jpg");
   content: "";
   top: 0;
   left: 0;
@@ -88,18 +89,15 @@ h1 {
   right: 0;
   position: absolute;
   z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#section-2 {
-  background-image: linear-gradient(to bottom, #212121, #444444);
-}
-
-#section-3 {
-  background-image: linear-gradient(to bottom, #444444, #000000);
-}
-
+#section-2,
+#section-3,
 #section-4 {
-  background-image: linear-gradient(to bottom, #000000, black);
+  background-color: #121212;
 }
 
 .hero {
@@ -129,6 +127,8 @@ button:hover {
 #logo-img {
   width: 60px;
   height: 60px;
+  margin-right: 50px;
+  opacity: 1;
 }
 
 #logo-container {
@@ -143,7 +143,7 @@ button:hover {
 }
 
 #hero-txt {
-  font-size: 60px;
+  font-size: 2vw;
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -152,7 +152,8 @@ button:hover {
   border: 5px solid white;
   background-color: white;
   font-style: oblique;
-  box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.6);
+  width: 20%;
+  box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.8);
 }
 
 #hero-txt:hover {
@@ -163,14 +164,14 @@ button:hover {
 }
 
 #hero-subtxt {
+  margin-top: -1vw;
   font-weight: 200;
-  font-size: 42px;
-  margin-top: -35px;
+  font-size: 1.5vw;
   font-family: "Barlow Condensed", sans-serif;
   text-transform: lowercase;
   color: white;
   background-color: black;
   padding: 15px;
   font-style: oblique;
-  box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.8);
 }

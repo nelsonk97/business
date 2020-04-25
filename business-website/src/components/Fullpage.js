@@ -1,7 +1,7 @@
 import React from "react";
 //import ReactDOM from "react-dom";
 import ReactFullpage from "@fullpage/react-fullpage";
-import hero from "../assets/hero.png";
+// import hero from "../assets/hero-text-1c.png";
 
 function Fullpage() {
   return (
@@ -15,6 +15,7 @@ function Fullpage() {
             <div id="fullpage">
               <div className="section" id="section-1">
                 <div className="hero">
+                  {/* <img src={hero} alt="hero" id="hero-txt"></img> */}
                   <p id="hero-txt">7ven digital media</p>
                   <p id="hero-subtxt">Elevate your online presence</p>
                 </div>

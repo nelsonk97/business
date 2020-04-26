@@ -81,7 +81,7 @@ h1 {
 /* Sections
   * --------------------------------------- */
 #section-1:after {
-  background-image: url("./assets/background-6.jpg");
+  background-image: url("./assets/background-5.jpg");
   content: "";
   top: 0;
   left: 0;
@@ -94,10 +94,16 @@ h1 {
   background-size: cover;
 }
 
-#section-2,
-#section-3,
+#section-2 {
+  background-image: linear-gradient(to bottom, white, rgb(138, 138, 138));
+}
+
+#section-3 {
+  background-image: linear-gradient(to bottom, rgb(138, 138, 138) 3%, black);
+}
+
 #section-4 {
-  background-color: #121212;
+  background-color: black;
 }
 
 .hero {
@@ -106,6 +112,21 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#info-1,
+#info-2 {
+  width: 1200px;
+  height: 900px;
+  background-color: #212121;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.8);
 }
 
 button {
@@ -153,7 +174,7 @@ button:hover {
   background-color: white;
   font-style: oblique;
   width: 20%;
-  box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.8);
+  /* box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.8); */
 }
 
 #hero-txt:hover {
@@ -173,5 +194,5 @@ button:hover {
   background-color: black;
   padding: 15px;
   font-style: oblique;
-  box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.8);
+  /* box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.8); */
 }

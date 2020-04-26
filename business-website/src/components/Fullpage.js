@@ -20,7 +20,16 @@ function Fullpage() {
                   <p id="hero-subtxt">Elevate your online presence</p>
                 </div>
               </div>
-              <div className="section" id="section-2"></div>
+              <div className="section" id="section-2">
+                <div className="info-container" id="info-container">
+                  <div className="info-1" id="info-1">
+                    1
+                  </div>
+                  <div className="info-2" id="info-2">
+                    2
+                  </div>
+                </div>
+              </div>
               <div className="section" id="section-3"></div>
               <div className="section" id="section-4">
                 <button onClick={() => fullpageApi.moveTo(1, 2)}>

@@ -94,18 +94,6 @@ h1 {
   background-size: cover;
 }
 
-#section-2 {
-  background-image: linear-gradient(to bottom, white, rgb(138, 138, 138));
-}
-
-#section-3 {
-  background-image: linear-gradient(to bottom, rgb(138, 138, 138) 3%, black);
-}
-
-#section-4 {
-  background-color: black;
-}
-
 .hero {
   height: 100%;
   display: flex;
@@ -123,10 +111,24 @@ h1 {
 
 #info-1,
 #info-2 {
-  width: 1200px;
-  height: 900px;
-  background-color: #212121;
-  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.8);
+  width: 42vw;
+  height: 86vh;
+  color: white;
+  text-align: left;
+  background-color: #121212;
+  padding: 25px;
+}
+
+#info-1-header {
+  font-size: 3vw;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: oblique;
+}
+
+#info-1-subtxt {
+  width: 50%;
 }
 
 button {
@@ -148,7 +150,7 @@ button:hover {
 #logo-img {
   width: 60px;
   height: 60px;
-  margin-right: 50px;
+  margin-right: 44px;
   opacity: 1;
 }
 

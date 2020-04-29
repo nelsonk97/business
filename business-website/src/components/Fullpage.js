@@ -56,21 +56,7 @@ function Fullpage() {
                   </div>
                 </div>
               </div>
-              {/*               <div className="section" id="section-3">
-                <div className="info-container-3" id="info-container-3">
-                  <div className="info-3" id="info-3"></div>
-                  <div className="info-3" id="info-3"></div>
-                  <div className="info-3" id="info-3"></div>
-                  <div className="info-3" id="info-3"></div>
-                  <div className="info-3" id="info-3"></div>
-                  <div className="info-3" id="info-3"></div>
-                  <div className="info-3" id="info-3"></div>
-                  <div className="info-3" id="info-3"></div>
-                  <div className="info-3" id="info-3"></div>
-                  <div className="info-3" id="info-3"></div>
-                </div>
-              </div> */}
-              <div className="section" id="section-4">
+              <div className="section" id="section-3">
                 <button onClick={() => fullpageApi.moveTo(1, 2)}>
                   Click me to move all the way up
                 </button>

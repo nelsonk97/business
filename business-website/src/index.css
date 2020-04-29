@@ -53,7 +53,7 @@ button {
   border-radius: 20px;
   padding: 10px;
   color: black;
-  border: 3px solid black;
+  border: 4px solid black;
   background-color: transparent;
 }
 
@@ -69,7 +69,7 @@ button:hover {
   * --------------------------------------- */
 #header {
   top: 0px;
-  opacity: 0.93;
+  opacity: 0.8;
   background-color: rgb(0, 0, 0);
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.6);
 }
@@ -77,7 +77,6 @@ button:hover {
 #logo-img {
   width: 60px;
   height: 60px;
-  margin-right: 44px;
   opacity: 1;
 }
 
@@ -133,14 +132,15 @@ i {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  background-color: whitesmoke;
 }
 
 #info-1 {
   width: 75vw;
   height: 65vh;
-  color: white;
+  color: whitesmoke;
   text-align: left;
-  background-color: #121212;
+  background-color: #212121;
   padding: 25px;
 
   display: flex;
@@ -149,18 +149,19 @@ i {
   justify-content: space-evenly;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
 
-  border: 5px solid white;
+  border: 4px solid whitesmoke;
 }
 
 #info-1:hover {
-  background-color: white;
-  border: 5px solid black;
-  color: black;
+  background-color: whitesmoke;
+  color: rgb(0, 0, 0);
+  border-color: black;
   transition: 0.3s ease-in;
 }
 
 #info-1-header {
-  font-size: 20px;
+  font-size: 24px;
+  margin-bottom: 15px;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -168,9 +169,9 @@ i {
 }
 
 #info-1-subtxt {
-  font-size: 10px;
-  font-weight: 400;
-  width: 90%;
+  font-size: 12px;
+  font-weight: 500;
+  width: 95%;
 }
 
 .info-1-blob {
@@ -189,6 +190,7 @@ i {
 
 #footer a,
 #hero {
+  margin-top: 6px;
   display: inline-block;
   vertical-align: middle;
   line-height: normal;

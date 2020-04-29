@@ -8,9 +8,9 @@ class Header extends React.Component {
         <div id="header">
           <div id="logo-container">
             <img src={logo} alt="logo" id="logo-img"></img>
-            <div id="menu">
+            {/* <div id="menu">
               <i class="fas fa-bars fa-2x"></i>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

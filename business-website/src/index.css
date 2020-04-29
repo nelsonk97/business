@@ -103,10 +103,10 @@ h1 {
 }
 
 .hero {
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .info-container-1 {
@@ -141,7 +141,7 @@ h1 {
   background-color: white;
   border: 5px solid black;
   color: black;
-  transition: 0.2s ease-in;
+  transition: 0.3s ease-in;
 }
 
 #info-1-header,
@@ -156,6 +156,11 @@ h1 {
 #info-1-subtxt {
   font-size: 10px;
   font-weight: 400;
+  width: 90%;
+}
+
+.info-1-blob {
+  width: 75%;
 }
 
 .info-container-3 {
@@ -234,9 +239,3 @@ button:hover {
   box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.8);
 }
  */
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}

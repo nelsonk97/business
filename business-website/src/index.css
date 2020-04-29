@@ -47,49 +47,67 @@ h1 {
   padding: 20px 0 0 0;
 }
 
+/* Filler/Test content in third section
+	* --------------------------------------- */
+button {
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+  border: 3px solid black;
+  background-color: transparent;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  border-color: white;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+/* Header
+  * --------------------------------------- */
 #header {
   top: 0px;
   opacity: 0.93;
   background-color: rgb(0, 0, 0);
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.6);
 }
-#footer {
-  font-size: 14px;
-  bottom: 0px;
-  background-color: rgb(0, 0, 0);
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
-  font-weight: 600;
+
+#logo-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 44px;
+  opacity: 1;
 }
 
-#footer a,
-#hero {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
+#logo-container {
+  margin-top: -15px;
 }
 
-#react-footer {
-  color: rgb(0, 162, 255);
+#menu {
+  margin-left: 15px;
+  margin-top: 15px;
+  float: left;
+  color: black;
 }
 
-#fullpage-footer {
-  color: rgb(255, 67, 67);
+i {
+  color: white;
 }
 
-/* Bottom menu
+/* Hero
 	* --------------------------------------- */
-#infoMenu {
-  bottom: 80px;
-}
-#infoMenu li a {
-  color: #fff;
-  z-index: 999;
+#hero-logo {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  margin: auto;
+  width: 500px;
 }
 
-/* Sections
-  * --------------------------------------- */
 #section-1:after {
-  background-image: url("./assets/background-3.jpg");
+  background-image: url("./assets/background-1.jpg");
   content: "";
   top: 0;
   left: 0;
@@ -117,8 +135,7 @@ h1 {
   justify-content: space-evenly;
 }
 
-#info-1,
-#info-2 {
+#info-1 {
   width: 75vw;
   height: 65vh;
   color: white;
@@ -135,17 +152,14 @@ h1 {
   border: 5px solid white;
 }
 
-#info-1:hover,
-#info-2:hover,
-#info-3:hover {
+#info-1:hover {
   background-color: white;
   border: 5px solid black;
   color: black;
   transition: 0.3s ease-in;
 }
 
-#info-1-header,
-#info-3-header {
+#info-1-header {
   font-size: 20px;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 600;
@@ -163,83 +177,35 @@ h1 {
   width: 75%;
 }
 
-.info-container-3 {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: space-evenly;
+/* Footer
+  * --------------------------------------- */
+#footer {
+  font-size: 14px;
+  bottom: 0px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+  font-weight: 600;
 }
 
-.info-3 {
-  width: 19vw;
-  height: 35vh;
-  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
-  border: 5px solid white;
-  background-color: #212121;
-  color: white;
+#footer a,
+#hero {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
-button {
-  border-radius: 20px;
-  padding: 10px;
-  color: black;
-  border: 3px solid black;
-  background-color: transparent;
+#react-footer {
+  color: rgb(0, 162, 255);
 }
 
-button:hover {
-  color: white;
-  background-color: black;
-  border-color: white;
-  transition: 0.2s ease-in;
-  cursor: pointer;
+#fullpage-footer {
+  color: rgb(255, 67, 67);
 }
 
-#logo-img {
-  width: 60px;
-  height: 60px;
-  margin-right: 44px;
-  opacity: 1;
+#infoMenu {
+  bottom: 80px;
 }
-
-#logo-container {
-  margin-top: -15px;
-}
-
-#menu {
-  margin-left: 15px;
-  margin-top: 15px;
-  float: left;
-  color: black;
-}
-
-#hero-logo {
-  position: absolute;
-  top: 50px;
-  bottom: 0;
-  margin: auto;
-  width: 500px;
-}
-/* 
-#hero-subtxt {
-  font-weight: 200;
-  font-size: 19px;
-  font-family: "Barlow Condensed", sans-serif;
-  text-transform: lowercase;
-  color: white;
-  padding: 50px;
-  font-style: oblique;
-  box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.8);
-}
- */
-
-i {
-  color: white;
+#infoMenu li a {
+  color: #fff;
+  z-index: 999;
 }
